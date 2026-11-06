@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: Room2.5.ma
-//Last modified: Wed, Nov 04, 2026 11:09:57 PM
+//Last modified: Wed, Nov 04, 2026 11:19:31 PM
 //Codeset: 1252
 file -rdi 1 -ns "Bucket_Hat_thingy" -dr 1 -rfn "Bucket_Hat_thingyRN" -op "VERS|2027|UVER|undef|MADE|undef|CHNG|Thu, Sep 17, 2026 09:21:32 PM|ICON|undef|INFO|undef|OBJN|333|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|TDUR|141120000|"
 		 -typ "mayaBinary" "C:/Users/11061433/Documents/maya/projects/default//scenes/Bucket Hat thingy.mb";
@@ -63,7 +63,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Enterprise v2009 (Build: 26200)";
-fileInfo "UUID" "B983BFF4-48B6-A892-34E3-92A922A2389A";
+fileInfo "UUID" "225EC3A8-4624-D135-B060-429EDD931894";
 createNode transform -s -n "persp";
 	rename -uid "7C460BDC-4D09-D84B-0052-E8A3A164F3E6";
 	setAttr ".v" no;
@@ -22722,7 +22722,7 @@ createNode mesh -n "pasted__pCylinderShape9" -p "pasted__pCylinder9";
 	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "RenderCam";
 	rename -uid "99015DB7-4D7B-E926-148B-5B963DC32C3A";
-	setAttr ".t" -type "double3" -46.232793751248096 29.546419899679783 47.003644183347078 ;
+	setAttr ".t" -type "double3" -56.170393085082395 35.073602809930925 56.205962065260273 ;
 	setAttr ".r" -type "double3" -22.200000000005744 -47.20000000000082 -2.3405661839476367e-15 ;
 createNode camera -n "RenderCamShape" -p "RenderCam";
 	rename -uid "FCC07B09-4755-8511-1FE2-B1894716489B";
@@ -22730,7 +22730,7 @@ createNode camera -n "RenderCamShape" -p "RenderCam";
 	setAttr ".rnd" no;
 	setAttr ".cap" -type "double2" 1.41732 0.94488 ;
 	setAttr ".ff" 0;
-	setAttr ".coi" 65.875904535424425;
+	setAttr ".coi" 80.504242986628498;
 	setAttr ".ow" 30;
 	setAttr ".imn" -type "string" "camera1";
 	setAttr ".den" -type "string" "camera1_depth";
@@ -22780,7 +22780,7 @@ createNode aiSkyDomeLight -n "aiSkyDomeLightShape1" -p "aiSkyDomeLight1";
 	setAttr ".intensity" 4.1025643348693848;
 	setAttr -av ".ai_exposure" 1;
 createNode fosterParent -n "PillowRNfosterParent1";
-	rename -uid "92F2F798-4394-416A-2501-51BDED42DBA6";
+	rename -uid "B0D7ABD2-4144-3F4A-DED5-C79972F56F4E";
 createNode transform -n "pCube105" -p "PillowRNfosterParent1";
 	rename -uid "6422CE92-4EAD-341B-DBCC-FBADBBC3E4BF";
 	setAttr ".t" -type "double3" -4.4394514625203119 5.0311549842180892 -4.8575790206651854 ;
@@ -23925,7 +23925,7 @@ createNode mesh -n "pCubeShape105" -p "pCube105";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".bw" 3;
 createNode fosterParent -n "Table1RN2fosterParent1";
-	rename -uid "EA74BC65-4727-2C59-C1DC-D2941831AB18";
+	rename -uid "E8BB2349-435F-BA65-B918-769F6D8E7F45";
 createNode mesh -n "Table1:polySurfaceShape1" -p "Table1RN2fosterParent1";
 	rename -uid "83A67C27-4A2E-66AE-A505-33B95A3FB846";
 	setAttr -k off ".v";
@@ -26402,7 +26402,7 @@ createNode file -n "file12";
 createNode place2dTexture -n "place2dTexture12";
 	rename -uid "B74EE041-498E-428F-43B0-3D98DFCDD88C";
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "B8393FF2-4A74-7587-DB00-47AC937C3488";
+	rename -uid "646CEECD-4DC6-1E92-F0F2-6BA7B1108D59";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -5128.0430271741334 -5423.4923897229946 ;
 	setAttr ".tgi[0].vh" -type "double2" -3602.344241708618 -4603.2543270782317 ;
@@ -26462,7 +26462,7 @@ select -ne :openPBR_shader1;
 	setAttr ".bc" -type "float3" 0.40000001 0.40000001 0.40000001 ;
 	setAttr ".sr" 0.5;
 select -ne :initialShadingGroup;
-	setAttr -s 9 ".dsm";
+	setAttr -s 8 ".dsm";
 	setAttr ".ro" yes;
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;

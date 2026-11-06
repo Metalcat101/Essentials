@@ -1,0 +1,21 @@
+{
+    "at_origin": false,
+    "center_component": false,
+    "class_prefix_path": "",
+    "component_prim_path_pattern": "/root",
+    "file_extension": "usda",
+    "filename_pattern": "{component_folder}/{component_name}/{component_filename}.{file_extension}",
+    "flatten_source": false,
+    "materials_scope_name": "mtl",
+    "meshes_scope_name": "geo",
+    "options_description": "ASWF Standard options for the component creator.\nIt represents the component structure that we want to\npromote as the correct way to encapsulate a component.",
+    "options_name": "ASWF Standard (default)",
+    "payload_filename_pattern": "{component_folder}/{component_name}/{scope_name}/{variant_selections}.usdc",
+    "scope_layer_filename_pattern": "{component_folder}/{component_name}/{scope_name}/{scope_name}.{file_extension}",
+    "sub_layers_in_payload": true,
+    "sub_layers_payload_filename_pattern": "{component_folder}/{component_name}/payload.{file_extension}",
+    "variant_name_pattern": "{object_name}",
+    "variant_numbered_pattern": "variant_<n>",
+    "variant_set_name_pattern": "{object_name}",
+    "variant_set_numbered_pattern": "variant_set_<n>"
+}
