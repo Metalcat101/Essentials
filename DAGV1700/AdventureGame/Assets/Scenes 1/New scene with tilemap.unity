@@ -7283,7 +7283,6 @@ GameObject:
   - component: {fileID: 577335801}
   - component: {fileID: 577335803}
   - component: {fileID: 577335802}
-  - component: {fileID: 577335805}
   - component: {fileID: 577335804}
   m_Layer: 13
   m_Name: 'Key 1 - GOLD - '
@@ -7380,7 +7379,8 @@ Transform:
   m_LocalPosition: {x: 7.58, y: 2.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1052178808}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &577335801
@@ -7401,6 +7401,18 @@ MonoBehaviour:
   triggerEvent:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1052178807}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Emit
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 577335799}
         m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
         m_MethodName: set_enabled
@@ -7473,24 +7485,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &577335805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 577335797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7c4c067838ab4f4daf3ceea190e0b91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  awakeEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  triggerEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!4 &584335963 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2886883534880015396, guid: 8f1b8efa346ac454682e1e0c7c472f42, type: 3}
@@ -8527,6 +8521,16 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1135803363}
   m_SourcePrefab: {fileID: 100100000, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+--- !u!198 &1052178807 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 20517531143381792, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+  m_PrefabInstance: {fileID: 1578411183058748106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1052178808 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 558769828988996306, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+  m_PrefabInstance: {fileID: 1578411183058748106}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1095167880
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10208,6 +10212,79 @@ MonoBehaviour:
   m_MoveSpeed: 10
   m_MoveSpeedIncrement: 2.5
   m_Turbo: 10
+--- !u!1001 &1578411183058748106
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 577335800}
+    m_Modifications:
+    - target: {fileID: 20517531143381792, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20517531143381792, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+      propertyPath: ShapeModule.type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20517531143381792, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 558769828988996306, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 558769828988996306, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 558769828988996306, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 558769828988996306, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 558769828988996306, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 558769828988996306, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 558769828988996306, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 558769828988996306, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 558769828988996306, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 558769828988996306, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4730522146490194976, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+      propertyPath: m_Name
+      value: Particle System
+      objectReference: {fileID: 0}
+    - target: {fileID: 4730522146490194976, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 540b19d6b1124954580e3c46b1ed205e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
