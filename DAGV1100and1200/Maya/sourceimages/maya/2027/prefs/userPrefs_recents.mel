@@ -1,0 +1,34 @@
+//Maya Preference 2027 (Release 1)
+//
+//
+
+optionVar -version 3;
+
+// RecentFiles
+optionVar -cat "RecentFiles"
+ -sa "RecentFilesList"
+ -sva "RecentFilesList" "C:/Users/11061433/Documents/maya/projects/default/scenes/Pillow.mb"
+ -sva "RecentFilesList" "C:/Users/11061433/Documents/maya/projects/default/scenes/Plant pot.mb"
+ -sva "RecentFilesList" "C:/Users/11061433/Documents/maya/projects/default/scenes/Candle stalks.mb"
+ -sva "RecentFilesList" "C:/Users/11061433/Documents/maya/projects/default/scenes/Walls.ma"
+ -sva "RecentFilesList" "C:/Users/11061433/Documents/maya/projects/default/scenes/CouchRef.ma"
+ -sva "RecentFilesList" "C:/Users/11061433/Documents/GitHub/Essentials/DAGV1100and1200/Room2.mb"
+ -sva "RecentFilesList" "C:/Users/11061433/Documents/Room2.mb"
+ -sva "RecentFilesList" "C:/Users/11061433/Documents/Room2.ma"
+ -sva "RecentFilesList" "C:/Users/11061433/Documents/maya/projects/default/scenes/Candle Flames.ma"
+ -sva "RecentFilesList" "C:/Users/11061433/Documents/GitHub/Essentials/DAGV1100and1200/Room2.5.ma"
+ -sa "RecentFilesTypeList"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaAscii"
+ -sva "RecentFilesTypeList" "mayaAscii"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaAscii"
+ -sva "RecentFilesTypeList" "mayaAscii"
+ -sva "RecentFilesTypeList" "mayaAscii"
+ -sa "RecentProjectsList"
+ -sva "RecentProjectsList" "C:/Users/11061433/Documents/GitHub/Essentials/DAGV1100and1200/Maya"
+ ;
+
